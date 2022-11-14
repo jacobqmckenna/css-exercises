@@ -1,0 +1,16 @@
+.main {
+    background-color: #FE6969;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#id {
+    color: #69D6FE;
+    font-size: 36px;
+}
+.main.large {
+    font-size: 24px;
+}
+#color {
+    background-color: #70FE69;
+    font-size: 24px;
+    font-weight: bold;
+}
