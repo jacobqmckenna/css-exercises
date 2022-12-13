@@ -52,6 +52,7 @@ input {
   justify-content: flex-start;
   padding-left: 10px;
   align-items: center;
+  color: lightgrey;
 }
 
 .header > .right-links, .footer > .right-links {
@@ -73,6 +74,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: gray;
 }
 
 a:hover {
