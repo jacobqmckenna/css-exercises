@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -26,27 +25,50 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .sidebar {
   min-width: 300px;
   background: royalblue;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex-wrap: wrap;
+  padding: 25px;
+  width: 300px;
+  height: auto;
 }
 
-.container,.card-container {
+.container {
   display: flex;
-  gap: 10px;
+  flex: 1;
+}
+
+.card-container {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding: 32px;
 }
 
 a {
   color: white;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  margin-bottom: 15px;
 }
 
 a:link  {
